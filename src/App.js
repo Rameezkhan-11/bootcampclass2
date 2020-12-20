@@ -13,7 +13,7 @@ function App() {
 <div  className={`morning ${day ? 'morning' : 'night'}`}>
 <h3>Day is = {day ? 'morning': 'night'}</h3>
 <button onClick={()=>setDay(!day)}>Click</button>
-<p>Rameez khan</p>
+
 
 
 </div>
